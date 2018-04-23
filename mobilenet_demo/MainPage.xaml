@@ -1,0 +1,15 @@
+﻿<Page
+    x:Class="mobilenet_demo.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:mobilenet_demo"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d" Loaded="Page_Loaded">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <CaptureElement x:Name="capture" HorizontalAlignment="Left" Height="720" Margin="10,10,0,0" VerticalAlignment="Top" Width="720"/>
+        <TextBlock x:Name="msgTbk" HorizontalAlignment="Left" Margin="720,10,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" FontSize="20" Width="474" Height="330"/>
+
+    </Grid>
+</Page>
